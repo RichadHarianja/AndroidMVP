@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BasicLoginMVP</string>
+
+    <!--Text For Login Feature-->
+    <string name="usernameText">Username</string>
+    <string name="passwordText">Password</string>
+    <string name="buttonLoginText">Login</string>
+    <!---->
+</resources>
