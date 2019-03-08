@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BasicLoginMVP</string>
+    <string name="app_name">Gallery</string>
 
     <!--Text For Login Feature-->
     <string name="usernameText">Username</string>
