@@ -1,5 +1,6 @@
 package com.example.richardharianja.androidproject.activities;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -51,7 +52,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void loginSuccess() {
         Toast.makeText(getApplicationContext(), "Login Success", Toast.LENGTH_LONG).show();
-        startActivity(new Intent(this, HomeActivity.class));
+        startActivity(new Intent(this, SplashActivity.class));
 
     }
 

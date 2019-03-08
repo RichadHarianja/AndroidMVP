@@ -1,9 +1,12 @@
 <resources>
-    <string name="app_name">Gallery</string>
+    <string name="app_name">Gallery </string>
 
     <!--Text For Login Feature-->
     <string name="usernameText">Username</string>
     <string name="passwordText">Password</string>
     <string name="buttonLoginText">Login</string>
-    <!---->
+
+    <!--Main Menus-->
+    <string name="username">Hai, </string>
+    <string name="welcome">Selamat Datang</string>
 </resources>
