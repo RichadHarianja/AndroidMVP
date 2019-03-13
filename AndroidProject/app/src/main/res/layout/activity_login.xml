@@ -7,29 +7,62 @@
     android:layout_height="match_parent"
     tools:context=".activities.LoginActivity">
 
-
-    <EditText
-        android:id="@+id/editText_login_username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="@string/usernameText"
-        android:ems="10"
+    <ImageView
+        android:id="@+id/image_dashboard_activity_login"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:ems="15"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="100dp"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:src="@drawable/ic_splash_image"/>
+
+    <TextView
+        android:id="@+id/title_icon_activity_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="15"
+        android:fontFamily="casual"
+        android:text="@string/imageText"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_dashboard_activity_login" />
+
+    <EditText
+        android:id="@+id/editText_login_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="@string/usernameText"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_icon_activity_login"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="@string/passwordText"
-        android:ems="10"
+        android:ems="15"
         android:id="@+id/editText_login_password"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +81,7 @@
         android:background="@drawable/ic_launcher_rounded"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintTop_toBottomOf="@+id/editText_login_password"
         app:layout_constraintEnd_toEndOf="@+id/editText_login_password"
         app:layout_constraintStart_toStartOf="@+id/editText_login_password"
