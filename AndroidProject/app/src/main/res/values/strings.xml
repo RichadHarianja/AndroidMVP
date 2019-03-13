@@ -9,5 +9,5 @@
 
     <!--Main Menus-->
     <string name="username">Hai, </string>
-    <string name="welcome">Selamat Datang Test</string>
+    <string name="welcome">Selamat Datang</string>
 </resources>
