@@ -5,7 +5,7 @@
     <string name="usernameText">Username</string>
     <string name="passwordText">Password</string>
     <string name="buttonLoginText">Login</string>
-    <string name="imageText">Photos Collections</string>
+    <string name="imageText">RSGALLERY</string>
 
     <!--Main Menus-->
     <string name="username">Hai, </string>
